@@ -1,0 +1,22 @@
+public a giye backend folder create korte hbe
+okhane backend er js css document move korte hbe 
+layous>app.blade.php holo ekta such/structer 
+
+
+nav bar fotter egulo ekbare : @extends('backend.app') : korle cole ashobe
+
+laouts>app er modde ::@yield('content') dite hbe 
+
+layouts ke divide korar jonno:: @include('backend.inc.nav') use korte hoi
+
+
+@section('content')
+er modde differect content likhte hbe
+@endsection
+
+
+layouts>app ke use korar jonno:: @extends('backend.app') use kora hoi
+
+
+{{ asset('storage/post/' . $post->image) }}
+{{ asset('backend/js/scripts.js') }}
